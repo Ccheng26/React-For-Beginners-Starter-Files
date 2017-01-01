@@ -118,7 +118,8 @@ removeFromOrder(key) {
           removeFish={this.removeFish}
           loadSamples={this.loadSamples}
           fishes={this.state.fishes}
-          updateFish={this.updateFish} />
+          updateFish={this.updateFish}
+          storeId={this.props.params.storeId} />
       </div>
     )
   }
